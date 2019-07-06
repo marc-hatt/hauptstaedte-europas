@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Capitals of Europe</title>
 </head>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap');
+  * {
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: -0.2px;
+  }
+  #root {
+    margin: 0 auto;
+    width: 800px;
+    padding: 40px 80px;
+    border: 3px solid #424242;
+    margin-top: 50px;
+    background-color: #ffff99;
+    border-radius: 20px;
+  }
+</style>
 <body>
+<div id="root">
+  <h1 style="font-size: 3em;">Capitals of Europe</br> and where to find them</h1>
   <div id="viz"></div>
-  <script src="https://unpkg.com/d3@5.9.7/dist/d3.min.js"></script>
-  <script src="https://unpkg.com/d3-geo@1.11.6/dist/d3-geo.min.js"></script>
-  <script src="./visualization.js"></script>
+  <h2 style="font-size:2em;">Take a guess! Explains itself, right?</h2>
+  <h6 style="padding-top: 100px;">Made by Marc, with the incredible help of my friends at logrinto</h6>
+</div>
+<script src="https://unpkg.com/d3@5.9.7/dist/d3.min.js"></script>
+<script src="https://unpkg.com/d3-geo@1.11.6/dist/d3-geo.min.js"></script>
+<script src="./visualization.js"></script>
 </body>
 </html>
