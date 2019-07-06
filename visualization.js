@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 .attr("cx", d => projection([d.lon, d.lat])[0])
                 .attr("cy", d => projection([d.lon, d.lat])[1])
                 .attr("r", d => d.size)
-                .attr("fill", "rgba(255, 255, 102, 0.8")
+                .attr("fill", "rgba(0, 0, 0, 0.6")
                 .attr("opacity", "50%")
                 .on("click", d => {
                     console.log("Data: ", d);
